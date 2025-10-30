@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     API_RELOAD: bool = True
     
     # CORS
-    FRONTEND_URL: str = "http://localhost:8080"
+    FRONTEND_URL: str = "https://frontend-opnpe.vercel.app"
     
     # JWT
     SECRET_KEY: str
